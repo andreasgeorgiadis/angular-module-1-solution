@@ -8,7 +8,7 @@
   function LunchCheckController($scope) {
     $scope.lunchItems = '';
     $scope.messageStyle = { 'color': 'red' };
-    $scope.textboxStyle = { 'border-color': 'red' };
+    $scope.textboxStyle = { 'border-color': 'black' };
     $scope.checkLunch = function () {
       var numItems = $scope.lunchItems
         .split(',')
